@@ -15,7 +15,7 @@
                          "sourceCode":  "https://github.com/FFmpeg/FFmpeg/tree/94cba3150c (bản dựng: https://github.com/BtbN/FFmpeg-Builds)",
                          "sources":  [
                                          "https://github.com/FFmpeg/FFmpeg/archive/94cba3150c.tar.gz",
-                                         "https://github.com/BtbN/FFmpeg-Builds/archive/refs/tags/autobuild-2026-10-17-20-51.tar.gz"
+                                         "https://github.com/FFmpeg-Builds/FFmpeg-Builds/archive/63ac3265b0789ea16c7b1f8351cd2ad195a28722.tar.gz"
                                      ],
                          "sourceGaps":  "Bản dựng BtbN liên kết tĩnh nhiều thư viện GPL/LGPL (x264, x265, libvpx…); mã nguồn từng thư viện theo đúng commit do kịch bản BtbN ở thẻ trên chỉ định — cần tải kèm, hoặc Vietnews tự dựng FFmpeg từ nguồn.",
                          "update":  {
