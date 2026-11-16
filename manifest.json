@@ -1,0 +1,29 @@
+{
+    "_note":  "Gói phần mềm VAS phát hành từ repo này — sinh tự động từ setup/tools-manifest.json của VAS (tools/vas-repos/make-repos.ps1). Không sửa tay.",
+    "packages":  [
+                     {
+                         "id":  "ffmpeg",
+                         "vasRepo":  "FFmpeg-VAS",
+                         "boCai":  "setup",
+                         "title":  "FFmpeg (bản GPL: H.264/H.265)",
+                         "version":  "N-127617-g94cba3150c",
+                         "file":  "ffmpeg-N-127617-g94cba3150c-win64-gpl.zip",
+                         "url":  "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2026-10-17-20-51/ffmpeg-N-127617-g94cba3150c-win64-gpl.zip",
+                         "sha256":  "A477743CB9DAD794752DBEBA473527682421BC5D0AD760786154F3E94748772C",
+                         "license":  "GPL-3.0",
+                         "home":  "https://ffmpeg.org",
+                         "sourceCode":  "https://github.com/FFmpeg/FFmpeg/tree/94cba3150c (bản dựng: https://github.com/BtbN/FFmpeg-Builds)",
+                         "sources":  [
+                                         "https://github.com/FFmpeg/FFmpeg/archive/94cba3150c.tar.gz",
+                                         "https://github.com/BtbN/FFmpeg-Builds/archive/refs/tags/autobuild-2026-10-17-20-51.tar.gz"
+                                     ],
+                         "sourceGaps":  "Bản dựng BtbN liên kết tĩnh nhiều thư viện GPL/LGPL (x264, x265, libvpx…); mã nguồn từng thư viện theo đúng commit do kịch bản BtbN ở thẻ trên chỉ định — cần tải kèm, hoặc Vietnews tự dựng FFmpeg từ nguồn.",
+                         "update":  {
+                                        "kind":  "github",
+                                        "repo":  "BtbN/FFmpeg-Builds",
+                                        "asset":  "^ffmpeg-(N-\\d+-g[0-9a-f]+)-win64-gpl\\.zip$",
+                                        "allReleases":  true
+                                    }
+                     }
+                 ]
+}
